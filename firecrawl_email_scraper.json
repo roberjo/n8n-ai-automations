@@ -249,6 +249,62 @@
           "name": "Firecrawl Test"
         }
       }
+    },
+    {
+      "parameters": {
+        "fieldToSplitOut": "scraped_email_addresses",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitOut",
+      "typeVersion": 1,
+      "position": [
+        2240,
+        -20
+      ],
+      "id": "10100a60-077d-4fac-8b91-1d7259e0e096",
+      "name": "split_emails"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.instantly.ai/api/v2/leads",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "email",
+              "value": "={{ $json.scraped_email_addresses }}"
+            },
+            {
+              "name": "campaign",
+              "value": "4d1d4037-a7e0-4ee2-96c2-de223241a83c"
+            }
+          ]
+        },
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2540,
+        -20
+      ],
+      "id": "124ef489-d321-411f-86fc-10edca9c6209",
+      "name": "create_lead",
+      "credentials": {
+        "httpHeaderAuth": {
+          "id": "UVjoN3pRJJch82VP",
+          "name": "Instantly API"
+        }
+      }
     }
   ],
   "pinData": {},
@@ -346,7 +402,24 @@
     },
     "set_result": {
       "main": [
-        []
+        [
+          {
+            "node": "split_emails",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "split_emails": {
+      "main": [
+        [
+          {
+            "node": "create_lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
       ]
     }
   },
@@ -354,7 +427,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "792139b2-9e4d-49e3-9924-d37b6e71a990",
+  "versionId": "f23ace71-3675-4fd1-856f-7420511df0c0",
   "meta": {
     "instanceId": "06e5009344f682419c20ccd4ecdcb5223bbb91761882af93ac6d468dbc2cbf8d"
   },
