@@ -7,3 +7,4 @@ Created and maintained by [The Recap AI](https://recap.aitools.inc) — Join ou
 - [ai_scraping_pipeline.json](https://www.youtube.com/watch?v=2uwV4aUyGIg) - Uses Google News, Firecrawl, and rss.app to scrape virtually any piece of web content and transform it into LLM-ready output.
 - [twitter_reply_guy_agent.json](https://www.youtube.com/watch?v=Q_b5uPndsLY) - Uses a Mention.com Twitter / X keyword monitoring feed to monitor incoming Twitter posts for certain keywords then uses AI to evaluate and post a reply.
 - [firecrawl_email_scraper.json](https://www.youtube.com/watch?v=zasYpLeMV9g) - Uses firecrawl `/map` and `/scrape` endpoints to scrape all email addresses from a given website.
+- [write_seo_optimized_listicle_article.json](https://www.youtube.com/watch?v=uDrkgEuEOBA) - Uses Chat GPT Deep Research output to generate an SEO-optimized article and publish to your CMS.
