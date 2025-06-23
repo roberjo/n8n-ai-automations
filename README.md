@@ -11,3 +11,4 @@ Collection of n8n workflows and automations created and maintained by [The Recap
 - [ai_news_data_ingestion.json](https://www.youtube.com/watch?v=Nv5_LU0q1IY) - Automatically ingests and processes AI news content from multiple sources (Google News, AI Subreddits, Hacker News, and more sources) using RSS feeds and evaluates content relevance.
 - [ai_newsletter_generator.json](https://www.youtube.com/watch?v=Nv5_LU0q1IY) - Generates AI-focused newsletters by selecting top stories, writing engaging content, and formatting with proper markdown structure.
 - [firecrawl_scrape_url.json](https://www.youtube.com/watch?v=Nv5_LU0q1IY) - A reusable workflow that uses Firecrawl to extract the main text content and relevant images from any URL, optimized for content processing and LLM prompting.
+- [cal_ai_clone_backend.json](https://www.youtube.com/watch?v=4c-kYOiksFg) - Analyzes meal images using AI to estimate calories and nutrition, then returns results as JSON for your app. 
