@@ -13,3 +13,4 @@ Collection of n8n workflows and automations created and maintained by [The Recap
 - [firecrawl_scrape_url.json](https://www.youtube.com/watch?v=Nv5_LU0q1IY) - A reusable workflow that uses Firecrawl to extract the main text content and relevant images from any URL, optimized for content processing and LLM prompting.
 - [cal_ai_clone_backend.json](https://www.youtube.com/watch?v=4c-kYOiksFg) - Analyzes meal images using AI to estimate calories and nutrition, then returns results as JSON for your app.
 - [veo_3_viral_bigfoot_vlog_generator.json](https://www.youtube.com/watch?v=C65c8itWvf4) - Generates a multi-scene, AI-scripted Bigfoot vlog video from a user idea, gets human approval, and creates the final video using VEO 3.
+- [short_form_video_script_generator.json](https://www.youtube.com/watch?v=7WsmUlbyjMM) - Generates a short-form video script using AI based on scraped news stories, optimized for virality and engagement.
