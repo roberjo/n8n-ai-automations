@@ -15,3 +15,4 @@ Collection of n8n workflows and automations created and maintained by **The Reca
 - [veo_3_viral_bigfoot_vlog_generator.json](https://www.youtube.com/watch?v=C65c8itWvf4) - Generates a multi-scene, AI-scripted Bigfoot vlog video from a user idea, gets human approval, and creates the final video using VEO 3.
 - [short_form_video_script_generator.json](https://www.youtube.com/watch?v=7WsmUlbyjMM) - Generates a short-form video script using AI based on scraped news stories, optimized for virality and engagement.
 - [twitter_x_scraping.json](https://youtu.be/otK0ILpn4GQ) - Multiple approaches to scrape tweets from Twitter/X using Apify, then saves tweet data (ID, URL, text, engagement metrics) to Google Sheets for further analysis or automation.
+- [content_repurposing_factory.json](https://www.youtube.com/watch?v=u9gwOtjiYnI) - Repurposes any YouTube video into viral-ready Twitter/X threads and LinkedIn posts using Apify and Claude.
