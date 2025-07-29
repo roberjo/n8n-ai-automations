@@ -4,23 +4,20 @@ Collection of n8n agents, workflows, and automations created and maintained by *
 
 ## Agents
 
-### Dental Practice Voice Agent
-
-[dental_practice_voice_agent.json](https://www.youtube.com/watch?v=vQ5Z8-f-xw4) - AI-powered voice agent for dental practices that handles appointment scheduling, checks Google Calendar availability, books appointments, and logs patient details to Google Sheets, all via natural language.
-
-
-### Marekting Team Voice Agent
+### Marketing Team Voice Agent
 
 [marketing_team_agent.json](https://youtu.be/_HOHQqjsy0U) - AI voice agent to replace your marketing team. Uses ElevenLabs and an n8n agent to handle daily marketing tasks such as writing newsletters, generating images, repurposing content, and creating videos.
 
-- [Write Newsletter Tool](https://youtu.be/_HOHQqjsy0U) - Automates the entire process of generating an AI-focused newsletter. It collects news, filters and selects top stories, writes engaging summaries and sections in a specific style, and formats the content for email delivery. The tool ensures each newsletter is unique, relevant, and ready for distribution, with built-in quality checks and Slack integration for team review.
-- [Generate Image Tool](https://youtu.be/_HOHQqjsy0U) - Generates custom images using OpenAI’s image generation API, following strict brand guidelines for newsletter and marketing content. The tool takes a prompt and context, applies Recap AI’s visual style rules, and posts the resulting image directly to a Slack channel for the marketing team.
-- [Generate Talking Avatar Tool](https://youtu.be/_HOHQqjsy0U) - Creates a talking avatar video from a provided script using the HeyGen API. The tool generates a video with a selected avatar and voice, waits for processing, checks the video status, and shares the final video link in Slack for the team to use in marketing or social content.
-- [Repurpose to Short Form Script Tool](https://youtu.be/_HOHQqjsy0U) - Converts newsletter or long-form content into engaging short-form video scripts, optimized for platforms like TikTok, Instagram Reels, and YouTube Shorts. Helps the marketing team quickly generate viral-ready video scripts from existing content.
-- [Repurpose to Twitter Thread Tool](https://youtu.be/_HOHQqjsy0U) - Transforms newsletter content into a compelling, multi-tweet Twitter/X thread. Automatically distills the most important news and insights into a format designed to drive engagement and discussion on social media.
-- [Email Research Report Tool](https://youtu.be/_HOHQqjsy0U) - Sends detailed research reports via email to team members or stakeholders. Converts markdown research content into formatted HTML and delivers it directly to the specified inbox, streamlining the sharing of deep-dive research and analysis.
+- [write_newsletter_tool.json](https://youtu.be/_HOHQqjsy0U) - Automates the entire process of generating an AI-focused newsletter. It collects news, filters and selects top stories, writes engaging summaries and sections in a specific style, and formats the content for email delivery. The tool ensures each newsletter is unique, relevant, and ready for distribution, with built-in quality checks and Slack integration for team review.
+- [generate_image_tool.json](https://youtu.be/_HOHQqjsy0U) - Generates custom images using OpenAI’s image generation API, following strict brand guidelines for newsletter and marketing content. The tool takes a prompt and context, applies Recap AI’s visual style rules, and posts the resulting image directly to a Slack channel for the marketing team.
+- [generate_talking_avatar_tool.json](https://youtu.be/_HOHQqjsy0U) - Creates a talking avatar video from a provided script using the HeyGen API. The tool generates a video with a selected avatar and voice, waits for processing, checks the video status, and shares the final video link in Slack for the team to use in marketing or social content.
+- [repurpose_to_short_form_script_tool.json](https://youtu.be/_HOHQqjsy0U) - Converts newsletter or long-form content into engaging short-form video scripts, optimized for platforms like TikTok, Instagram Reels, and YouTube Shorts. Helps the marketing team quickly generate viral-ready video scripts from existing content.
+- [repurpose_to_twitter_thread_tool.json](https://youtu.be/_HOHQqjsy0U) - Transforms newsletter content into a compelling, multi-tweet Twitter/X thread. Automatically distills the most important news and insights into a format designed to drive engagement and discussion on social media.
+- [email_research_report_tool.json](https://youtu.be/_HOHQqjsy0U) - Sends detailed research reports via email to team members or stakeholders. Converts markdown research content into formatted HTML and delivers it directly to the specified inbox, streamlining the sharing of deep-dive research and analysis.
 
+### Dental Practice Voice Agent
 
+[dental_practice_voice_agent.json](https://www.youtube.com/watch?v=vQ5Z8-f-xw4) - AI-powered voice agent for dental practices that handles appointment scheduling, checks Google Calendar availability, books appointments, and logs patient details to Google Sheets, all via natural language.
 
 ## Workflows & Automations
 
