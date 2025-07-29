@@ -18,4 +18,24 @@ Collection of n8n workflows and automations created and maintained by **The Reca
 - [content_repurposing_factory.json](https://www.youtube.com/watch?v=u9gwOtjiYnI) - Repurposes any YouTube video into viral-ready Twitter/X threads and LinkedIn posts using Apify and Claude.
 - [reverse_engineer_viral_ai_videos.json](https://youtu.be/qNSBLfb82wM) - Reverse-engineers any Instagram Reel or TikTok into a detailed, shot-by-shot prompt, using Apify and Google Gemini.
 - [viral_youtube_video_clipper.json](https://www.youtube.com/watch?v=Yb-mZmvHh-I) - Automatically analyzes any YouTube video, generates up to 8 viral-ready short clips using Vizard AI, filters for the most viral (score greater than 9 out of 10), and shares the best clips with download links to Slack for review and sharing.
-- [dental_practice_voice_agent.json](https://www.youtube.com/watch?v=vQ5Z8-f-xw4) - AI-powered voice agent for dental practices that handles appointment scheduling, checks Google Calendar availability, books appointments, and logs patient details to Google Sheets, all via natural language.
+
+## Agents
+
+### Dental Practice Voice Agent
+
+[dental_practice_voice_agent.json](https://www.youtube.com/watch?v=vQ5Z8-f-xw4) - AI-powered voice agent for dental practices that handles appointment scheduling, checks Google Calendar availability, books appointments, and logs patient details to Google Sheets, all via natural language.
+
+
+### Marekting Team Voice Agent
+
+[marketing_team_agent.json](https://youtu.be/_HOHQqjsy0U) - AI voice agent to replace your marketing team. Uses ElevenLabs and an n8n agent to handle daily marketing tasks such as writing newsletters, generating images, repurposing content, and creating videos.
+
+#### Custom Tools Used by the Marketing Team Agent
+
+- [Write Newsletter Tool](https://youtu.be/_HOHQqjsy0U) - Automates the entire process of generating an AI-focused newsletter. It collects news, filters and selects top stories, writes engaging summaries and sections in a specific style, and formats the content for email delivery. The tool ensures each newsletter is unique, relevant, and ready for distribution, with built-in quality checks and Slack integration for team review.
+- [Generate Image Tool](https://youtu.be/_HOHQqjsy0U) - Generates custom images using OpenAI’s image generation API, following strict brand guidelines for newsletter and marketing content. The tool takes a prompt and context, applies Recap AI’s visual style rules, and posts the resulting image directly to a Slack channel for the marketing team.
+- [Generate Talking Avatar Tool](https://youtu.be/_HOHQqjsy0U) - Creates a talking avatar video from a provided script using the HeyGen API. The tool generates a video with a selected avatar and voice, waits for processing, checks the video status, and shares the final video link in Slack for the team to use in marketing or social content.
+- [Repurpose to Short Form Script Tool](https://youtu.be/_HOHQqjsy0U) - Converts newsletter or long-form content into engaging short-form video scripts, optimized for platforms like TikTok, Instagram Reels, and YouTube Shorts. Helps the marketing team quickly generate viral-ready video scripts from existing content.
+- [Repurpose to Twitter Thread Tool](https://youtu.be/_HOHQqjsy0U) - Transforms newsletter content into a compelling, multi-tweet Twitter/X thread. Automatically distills the most important news and insights into a format designed to drive engagement and discussion on social media.
+- [Email Research Report Tool](https://youtu.be/_HOHQqjsy0U) - Sends detailed research reports via email to team members or stakeholders. Converts markdown research content into formatted HTML and delivers it directly to the specified inbox, streamlining the sharing of deep-dive research and analysis.
+
