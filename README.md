@@ -2,7 +2,7 @@
 
 Collection of n8n agents, workflows, and automations created and maintained by **The Recap AI** — Join our free [AI Automation Community](https://www.skool.com/ai-automation-mastery-group) to connect with AI builders learn how to build 
 
-## Agents
+## n8n AI Agents
 
 ### Marketing Team Voice Agent
 
@@ -19,7 +19,14 @@ Collection of n8n agents, workflows, and automations created and maintained by *
 
 [dental_practice_voice_agent.json](https://www.youtube.com/watch?v=vQ5Z8-f-xw4) - AI-powered voice agent for dental practices that handles appointment scheduling, checks Google Calendar availability, books appointments, and logs patient details to Google Sheets, all via natural language.
 
-## Workflows & Automations
+### AI Web Developer Agent
+
+[web_developer_agent.json](https://www.youtube.com/watch?v=ht0zdloIHfA) - AI-powered web developer agent that can scrape existing websites, analyze their content and structure, generate comprehensive Product Requirements Documents (PRDs), and automatically build modern, production-ready websites using Lovable.dev.
+
+- [web_develop_agent_tool_scrape_website.json](https://www.youtube.com/watch?v=ht0zdloIHfA) - Scrapes any website using Firecrawl's map and scrape endpoints to extract all content, links, and structure. The tool maps the entire website to discover all pages, then scrapes each page to collect markdown content, making it ready to be analyzed by the agent.
+- [web_develop_agent_tool_write_website_prd.json](https://www.youtube.com/watch?v=ht0zdloIHfA) - Analyzes scraped website content and generates comprehensive Product Requirements Documents (PRDs) optimized for AI website builders like Lovable.dev. The tool modernizes website structure, defines visual styles and branding, and creates detailed page-by-page specifications for a complete website redesign.
+
+## n8n AI Workflows & Automations
 
 - [ai_scraping_pipeline.json](https://www.youtube.com/watch?v=2uwV4aUyGIg) - Uses Google News, Firecrawl, and rss.app to scrape virtually any piece of web content and transform it into LLM-ready output.
 - [twitter_reply_guy_agent.json](https://www.youtube.com/watch?v=Q_b5uPndsLY) - Uses a Mention.com Twitter / X keyword monitoring feed to monitor incoming Twitter posts for certain keywords then uses AI to evaluate and post a reply.
