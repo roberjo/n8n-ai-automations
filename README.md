@@ -19,6 +19,10 @@ Collection of n8n agents, workflows, and automations created and maintained by *
 
 [dental_practice_voice_agent.json](https://www.youtube.com/watch?v=vQ5Z8-f-xw4) - AI-powered voice agent for dental practices that handles appointment scheduling, checks Google Calendar availability, books appointments, and logs patient details to Google Sheets, all via natural language.
 
+### WhatsApp AI Chatbot Agent
+
+[whatsapp_ai_chatbot_agent.json](https://www.youtube.com/watch?v=IpWx1ubSnH4) - AI-powered WhatsApp chatbot specifically designed for the hospitality industry. This agent handles customer inquiries and provides personalized service recommendations through natural language conversations.
+
 ### AI Web Developer Agent
 
 [web_developer_agent.json](https://www.youtube.com/watch?v=ht0zdloIHfA) - AI-powered web developer agent that can scrape existing websites, analyze their content and structure, generate comprehensive Product Requirements Documents (PRDs), and automatically build modern, production-ready websites using Lovable.dev.
