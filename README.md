@@ -23,6 +23,10 @@ Collection of n8n agents, workflows, and automations created and maintained by *
 
 [whatsapp_ai_chatbot_agent.json](https://www.youtube.com/watch?v=IpWx1ubSnH4) - AI-powered WhatsApp chatbot specifically designed for the hospitality industry. This agent handles customer inquiries and provides personalized service recommendations through natural language conversations.
 
+### AI Gmail Agent
+
+[ai_gmail_agent.json](https://www.youtube.com/watch?v=Q1Ytc3VdS5o) - AI-powered Gmail automation agent that processes emails, categorizes messages, drafts responses, and manages email workflows using natural language processing and automation.
+
 ### AI Web Developer Agent
 
 [web_developer_agent.json](https://www.youtube.com/watch?v=ht0zdloIHfA) - AI-powered web developer agent that can scrape existing websites, analyze their content and structure, generate comprehensive Product Requirements Documents (PRDs), and automatically build modern, production-ready websites using Lovable.dev.
