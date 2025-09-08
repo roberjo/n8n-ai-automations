@@ -1,6 +1,6 @@
-# The Recap AI + AI Automation Mastery n8n Workflows & Agents
+# The Recap AI + AI Automation Mastery n8n Workflows, Templates, and Agents
 
-Collection of n8n agents, workflows, and automations created and maintained by **The Recap AI** — Join our free [AI Automation Community](https://www.skool.com/ai-automation-mastery-group) to connect with AI builders learn how to build 
+Collection of n8n agents, workflows, templates, and automations created and maintained by **The Recap AI** — Join our free [AI Automation Community](https://www.skool.com/ai-automation-mastery-group) to connect with AI builders learn how to build 
 
 ## n8n AI Agents
 
