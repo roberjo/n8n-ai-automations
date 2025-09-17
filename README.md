@@ -31,6 +31,80 @@ Standalone utility workflows that can be used independently or integrated into l
 - **Key Services**: Firecrawl, Apify, Google Gemini, ElevenLabs, Twitter API
 - **Cost Considerations**: Web scraping (pay-per-request), social media monitoring (pay-per-monitor)
 
+## Overall System Architecture
+
+```mermaid
+graph TB
+    subgraph "Marketing Ecosystem"
+        ME1[Marketing Team Agent]
+        ME2[Content Creation Tools]
+        ME3[Repurposing Tools]
+        ME4[Research & Analytics]
+    end
+    
+    subgraph "Content Pipeline"
+        CP1[Data Ingestion]
+        CP2[Content Generation]
+        CP3[Content Processing]
+        CP4[Distribution]
+    end
+    
+    subgraph "AI Agents Standalone"
+        AI1[Web Developer Agent]
+        AI2[Gmail Agent]
+        AI3[Dental Practice Agent]
+        AI4[WhatsApp Chatbot]
+    end
+    
+    subgraph "Business Solutions"
+        BS1[Calendar AI Clone]
+    end
+    
+    subgraph "Utility Tools"
+        UT1[Web Scraping Tools]
+        UT2[Content Analysis Tools]
+        UT3[Social Media Tools]
+    end
+    
+    subgraph "Shared Services"
+        SS1[Google Gemini]
+        SS2[Firecrawl API]
+        SS3[Google APIs]
+        SS4[OpenAI Services]
+        SS5[Third-party APIs]
+    end
+    
+    ME1 --> SS1
+    ME2 --> SS4
+    ME3 --> SS1
+    ME4 --> SS2
+    
+    CP1 --> SS2
+    CP2 --> SS1
+    CP3 --> SS1
+    CP4 --> SS3
+    
+    AI1 --> SS1
+    AI1 --> SS2
+    AI2 --> SS3
+    AI3 --> SS1
+    AI4 --> SS1
+    
+    BS1 --> SS1
+    BS1 --> SS3
+    
+    UT1 --> SS2
+    UT2 --> SS1
+    UT3 --> SS5
+    
+    style ME1 fill:#e1f5fe
+    style CP1 fill:#e8f5e8
+    style AI1 fill:#fff3e0
+    style BS1 fill:#f3e5f5
+    style UT1 fill:#fce4ec
+    style SS1 fill:#f5f5f5
+```
+
 --- 
 
 ## n8n AI Agents

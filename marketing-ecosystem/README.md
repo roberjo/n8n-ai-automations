@@ -77,6 +77,55 @@ This folder contains interconnected marketing automation workflows that work tog
 - Cache generated content to avoid regeneration
 - Monitor usage through service dashboards
 
+## Workflow Diagram
+
+```mermaid
+graph TD
+    A[Marketing Team Agent] --> B[Research & Analysis]
+    A --> C[Content Creation]
+    A --> D[Content Repurposing]
+    A --> E[Distribution]
+    
+    B --> B1[Email Research Report Tool]
+    B1 --> B2[Gmail API]
+    B1 --> B3[Google Gemini]
+    
+    C --> C1[Generate Image Tool]
+    C --> C2[Generate Talking Avatar Tool]
+    C --> C3[Write Newsletter Tool]
+    C --> C4[Nano Banana Ad Creative Generator]
+    C --> C5[Nano Banana Facebook Ad Thief]
+    
+    C1 --> C1A[OpenAI DALL-E 3]
+    C1 --> C1B[Slack API]
+    
+    C2 --> C2A[HeyGen API]
+    C2 --> C2B[Slack API]
+    
+    C3 --> C3A[Google Gemini]
+    C3 --> C3B[Firecrawl API]
+    C3 --> C3C[RSS Feeds]
+    
+    C4 --> C4A[Google Gemini 2.5 Flash Image]
+    C5 --> C5A[Google Gemini 2.5 Flash Image]
+    
+    D --> D1[Repurpose to Twitter Thread Tool]
+    D --> D2[Repurpose to Short Form Script Tool]
+    
+    D1 --> D1A[Google Gemini]
+    D2 --> D2A[Google Gemini]
+    
+    E --> E1[Slack Notifications]
+    E --> E2[Gmail Distribution]
+    E --> E3[Google Drive Storage]
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style D fill:#fff3e0
+    style E fill:#fce4ec
+```
+
 ## How They Work Together
 
 1. The **Marketing Team Agent** serves as the central coordinator

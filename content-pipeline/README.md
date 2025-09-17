@@ -79,6 +79,57 @@ This folder contains workflows that form a complete content creation pipeline fr
 - Cache processed content to avoid reprocessing
 - Monitor API usage through service dashboards
 
+## Workflow Diagram
+
+```mermaid
+graph TD
+    A[Data Ingestion] --> B[Content Generation]
+    B --> C[Content Processing & Enhancement]
+    C --> D[Distribution]
+    
+    A --> A1[AI News Data Ingestion]
+    A --> A2[AI Scraping Pipeline]
+    
+    A1 --> A1A[Google News]
+    A1 --> A1B[RSS Feeds]
+    A1 --> A1C[Google Gemini]
+    
+    A2 --> A2A[Firecrawl API]
+    A2 --> A2B[Google Drive]
+    
+    B --> B1[Write SEO Optimized Listicle Article]
+    B --> B2[Short Form Video Script Generator]
+    
+    B1 --> B1A[Google Gemini]
+    B1 --> B1B[Firecrawl API]
+    
+    B2 --> B2A[Google Gemini]
+    B2 --> B2B[News Data]
+    
+    C --> C1[Content Repurposing Factory]
+    C --> C2[Viral YouTube Video Clipper]
+    C --> C3[VEO 3 Viral Bigfoot Vlog Generator]
+    
+    C1 --> C1A[Apify YouTube Scraper]
+    C1 --> C1B[Claude Sonnet 4]
+    
+    C2 --> C2A[Vizard AI]
+    C2 --> C2B[Slack API]
+    
+    C3 --> C3A[VEO 3 API]
+    C3 --> C3B[Google Gemini]
+    
+    D --> D1[AI Newsletter Generator]
+    D1 --> D1A[Google Gemini]
+    D1 --> D1B[Gmail API]
+    D1 --> D1C[Slack API]
+    
+    style A fill:#e3f2fd
+    style B fill:#e8f5e8
+    style C fill:#fff3e0
+    style D fill:#fce4ec
+```
+
 ## Pipeline Flow
 
 1. **Data Collection** → News and web scraping workflows gather raw data

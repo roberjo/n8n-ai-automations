@@ -103,6 +103,49 @@ These tools are designed to be:
 - **Modular** - Can be integrated into larger workflow systems
 - **Reusable** - Suitable for multiple use cases and projects
 
+## Workflow Diagram
+
+```mermaid
+graph TD
+    A[Utility Tools] --> B[Web Scraping & Data Collection]
+    A --> C[Content Generation]
+    A --> D[Social Media Automation]
+    
+    B --> B1[Firecrawl Scrape URL]
+    B --> B2[Firecrawl Email Scraper]
+    B --> B3[Twitter X Scraping]
+    
+    B1 --> B1A[Firecrawl API]
+    B1 --> B1B[Google Drive]
+    
+    B2 --> B2A[Firecrawl API]
+    B2 --> B2B[Email Extraction]
+    
+    B3 --> B3A[Apify Twitter Scraper]
+    B3 --> B3B[Google Sheets API]
+    
+    C --> C1[Local Podcast Generator]
+    C --> C2[Reverse Engineer Viral AI Videos]
+    
+    C1 --> C1A[RSS Feeds]
+    C1 --> C1B[Firecrawl API]
+    C1 --> C1C[ElevenLabs API]
+    
+    C2 --> C2A[Apify]
+    C2 --> C2B[Google Gemini]
+    
+    D --> D1[Twitter Reply Guy Agent]
+    
+    D1 --> D1A[Twitter API]
+    D1 --> D1B[Mention.com]
+    D1 --> D1C[Google Gemini]
+    
+    style A fill:#e1f5fe
+    style B fill:#e8f5e8
+    style C fill:#fff3e0
+    style D fill:#f3e5f5
+```
+
 ## Integration
 
 Each tool can be easily integrated into other workflows or used as building blocks for custom automation solutions.

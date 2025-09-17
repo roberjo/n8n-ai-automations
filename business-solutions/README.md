@@ -57,6 +57,54 @@ This workflow provides a comprehensive backend system for AI-powered calendar ma
 - **Remote Teams** - Distributed teams needing coordination assistance
 - **Health & Fitness Apps** - Applications requiring meal analysis and calorie tracking
 
+## Workflow Diagram
+
+```mermaid
+graph TD
+    A[Calendar AI Clone Backend] --> B[Calendar Management]
+    A --> C[Intelligent Scheduling]
+    A --> D[Data Analysis]
+    A --> E[Storage & Integration]
+    
+    B --> B1[Google Calendar API]
+    B --> B2[Event Creation]
+    B --> B3[Schedule Optimization]
+    
+    C --> C1[Conflict Resolution]
+    C --> C2[Meeting Coordination]
+    C --> C3[Availability Analysis]
+    
+    D --> D1[Meal Image Analysis]
+    D --> D2[Calorie Estimation]
+    D --> D3[Nutrition Tracking]
+    
+    E --> E1[Google Drive API]
+    E --> E2[Data Persistence]
+    E --> E3[System Integration]
+    
+    B1 --> B1A[Calendar Access]
+    B2 --> B2A[Event Management]
+    B3 --> B3A[Google Gemini]
+    
+    C1 --> C1A[Google Gemini]
+    C2 --> C2A[Google Gemini]
+    C3 --> C3A[Google Gemini]
+    
+    D1 --> D1A[Image Analysis Service]
+    D2 --> D2A[AI Processing]
+    D3 --> D3A[Data Storage]
+    
+    E1 --> E1A[File Storage]
+    E2 --> E2A[Data Backup]
+    E3 --> E3A[API Integration]
+    
+    style A fill:#e1f5fe
+    style B fill:#e8f5e8
+    style C fill:#fff3e0
+    style D fill:#f3e5f5
+    style E fill:#fce4ec
+```
+
 ## Integration
 
 This solution is designed to integrate with existing calendar systems and can be extended with additional business logic as needed.

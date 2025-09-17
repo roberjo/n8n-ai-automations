@@ -101,6 +101,59 @@ This folder contains independent AI agents that can operate autonomously for spe
 - Business process integration
 - **Dependencies**: WhatsApp Business API, Google Gemini
 
+## Workflow Diagram
+
+```mermaid
+graph TD
+    A[AI Agents Standalone] --> B[Web Developer Agent]
+    A --> C[Gmail Agent]
+    A --> D[Dental Practice Voice Agent]
+    A --> E[WhatsApp AI Chatbot Agent]
+    
+    B --> B1[Website Scraping Tool]
+    B --> B2[Website PRD Generator]
+    B --> B3[Lovable.dev Integration]
+    
+    B1 --> B1A[Firecrawl API]
+    B2 --> B2A[Google Gemini]
+    B3 --> B3A[Lovable.dev API]
+    B3 --> B3B[Airtop Browser Automation]
+    
+    C --> C1[Email Analysis]
+    C --> C2[Knowledge Base Management]
+    C --> C3[Response Generation]
+    
+    C1 --> C1A[Gmail API]
+    C1 --> C1B[Google Gemini]
+    C2 --> C2A[Google Drive API]
+    C2 --> C2B[Google Sheets API]
+    C3 --> C3A[Gmail API]
+    
+    D --> D1[Appointment Scheduling]
+    D --> D2[Voice Processing]
+    D --> D3[Patient Management]
+    
+    D1 --> D1A[Google Calendar API]
+    D2 --> D2A[ElevenLabs API]
+    D2 --> D2B[Google Gemini]
+    D3 --> D3A[Google Sheets API]
+    
+    E --> E1[Customer Service]
+    E --> E2[Multi-language Support]
+    E --> E3[Business Integration]
+    
+    E1 --> E1A[WhatsApp Business API]
+    E1 --> E1B[Google Gemini]
+    E2 --> E2A[Google Gemini]
+    E3 --> E3A[WhatsApp Business API]
+    
+    style A fill:#e1f5fe
+    style B fill:#e8f5e8
+    style C fill:#fff3e0
+    style D fill:#f3e5f5
+    style E fill:#fce4ec
+```
+
 ## Usage
 
 Each agent is designed to work independently and can be deployed for specific use cases. The web developer agent includes additional tools that enhance its capabilities for web development tasks.
