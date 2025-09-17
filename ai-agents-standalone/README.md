@@ -71,9 +71,18 @@ This folder contains independent AI agents that can operate autonomously for spe
 
 ### Cost Optimization Tips
 - Use free Google services where possible (Gmail, Calendar, Sheets, Docs)
+- **Replace Firecrawl with free alternatives** (n8n HTML Extract, Crawl4AI, self-hosted Firecrawl)
 - Cache scraped content to avoid re-scraping
 - Batch operations to reduce API call overhead
 - Monitor usage through service dashboards
+
+### Free Firecrawl Alternatives
+- **n8n HTML Extract Node**: Built-in, completely free for basic HTML scraping
+- **Crawl4AI**: Open-source, self-hosted alternative with AI integration
+- **Firecrawl Self-Hosted**: Open-source version with full functionality
+- **GPT-Crawler**: Open-source, AI-powered scraping tool
+
+📋 **[See detailed migration guide →](../FIRE_CRAWL_ALTERNATIVES.md)**
 
 ## Agent Capabilities
 

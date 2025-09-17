@@ -31,6 +31,17 @@ Standalone utility workflows that can be used independently or integrated into l
 - **Key Services**: Firecrawl, Apify, Google Gemini, ElevenLabs, Twitter API
 - **Cost Considerations**: Web scraping (pay-per-request), social media monitoring (pay-per-monitor)
 
+## 💰 Cost Optimization
+
+### Free Firecrawl Alternatives
+Many workflows use Firecrawl API for web scraping. **Free alternatives are available** to reduce costs:
+- **n8n HTML Extract Node** (built-in, completely free)
+- **Crawl4AI** (open-source, self-hosted)
+- **Firecrawl Self-Hosted** (open-source version)
+- **GPT-Crawler** (open-source, AI-powered)
+
+📋 **[See detailed migration guide →](./FIRE_CRAWL_ALTERNATIVES.md)**
+
 ## Overall System Architecture
 
 ```mermaid

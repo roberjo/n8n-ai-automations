@@ -75,9 +75,18 @@ This folder contains workflows that form a complete content creation pipeline fr
 
 ### Cost Optimization Tips
 - Use RSS feeds (free) for initial content discovery
+- **Replace Firecrawl with free alternatives** (n8n HTML Extract, Crawl4AI, self-hosted Firecrawl)
 - Batch scraping operations to reduce API calls
 - Cache processed content to avoid reprocessing
 - Monitor API usage through service dashboards
+
+### Free Firecrawl Alternatives
+- **n8n HTML Extract Node**: Built-in, completely free for basic HTML scraping
+- **Crawl4AI**: Open-source, self-hosted alternative with AI integration
+- **Firecrawl Self-Hosted**: Open-source version with full functionality
+- **GPT-Crawler**: Open-source, AI-powered scraping tool
+
+📋 **[See detailed migration guide →](../FIRE_CRAWL_ALTERNATIVES.md)**
 
 ## Workflow Diagram
 

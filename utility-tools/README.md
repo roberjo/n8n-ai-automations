@@ -68,10 +68,19 @@ This folder contains standalone utility workflows that can be used independently
 
 ### Cost Optimization Tips
 - Use free RSS feeds for initial content discovery
+- **Replace Firecrawl with free alternatives** (n8n HTML Extract, Crawl4AI, self-hosted Firecrawl)
 - Batch scraping operations to reduce API calls
 - Cache scraped content to avoid re-scraping
 - Use free tiers where possible (Twitter API, Google services)
 - Monitor usage through service dashboards
+
+### Free Firecrawl Alternatives
+- **n8n HTML Extract Node**: Built-in, completely free for basic HTML scraping
+- **Crawl4AI**: Open-source, self-hosted alternative with AI integration
+- **Firecrawl Self-Hosted**: Open-source version with full functionality
+- **GPT-Crawler**: Open-source, AI-powered scraping tool
+
+📋 **[See detailed migration guide →](../FIRE_CRAWL_ALTERNATIVES.md)**
 
 ## Tool Categories
 

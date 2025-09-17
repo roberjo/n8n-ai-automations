@@ -73,9 +73,18 @@ This folder contains interconnected marketing automation workflows that work tog
 
 ### Cost Optimization Tips
 - Use free tiers where possible (Twitter API, Gmail, Google Drive)
+- **Replace Firecrawl with free alternatives** (n8n HTML Extract, Crawl4AI, self-hosted Firecrawl)
 - Batch operations to reduce API call overhead
 - Cache generated content to avoid regeneration
 - Monitor usage through service dashboards
+
+### Free Firecrawl Alternatives
+- **n8n HTML Extract Node**: Built-in, completely free for basic HTML scraping
+- **Crawl4AI**: Open-source, self-hosted alternative with AI integration
+- **Firecrawl Self-Hosted**: Open-source version with full functionality
+- **GPT-Crawler**: Open-source, AI-powered scraping tool
+
+📋 **[See detailed migration guide →](../FIRE_CRAWL_ALTERNATIVES.md)**
 
 ## Workflow Diagram
 
