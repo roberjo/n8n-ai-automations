@@ -1,6 +1,37 @@
 # The Recap AI + AI Automation Mastery n8n Workflows, Templates, and Agents
 
-Collection of n8n agents, workflows, templates, and automations created and maintained by **The Recap AI** — Join our free [AI Automation Community](https://www.skool.com/ai-automation-mastery-group) to connect with AI builders learn how to build 
+Collection of n8n agents, workflows, templates, and automations created and maintained by **The Recap AI** — Join our free [AI Automation Community](https://www.skool.com/ai-automation-mastery-group) to connect with AI builders learn how to build
+
+## 📁 Project Organization
+
+The workflows are organized into 5 logical categories based on functionality and interdependencies. Each category includes detailed documentation covering dependencies, third-party services, costs, and setup requirements.
+
+### 🎯 [Marketing Ecosystem](./marketing-ecosystem/) - 8 workflows
+Interconnected marketing automation workflows that work together as a comprehensive marketing system.
+- **Key Services**: Google Gemini, OpenAI DALL-E 3, HeyGen, Firecrawl
+- **Cost Considerations**: Image generation ($0.040-$0.080 per image), video generation (pay-per-minute)
+
+### 📝 [Content Pipeline](./content-pipeline/) - 7 workflows  
+Complete content creation pipeline from data ingestion to final content output.
+- **Key Services**: Google Gemini, Claude, Firecrawl, Apify, VEO 3, Vizard AI
+- **Cost Considerations**: Web scraping (pay-per-request), video processing (pay-per-minute)
+
+### 🤖 [AI Agents Standalone](./ai-agents-standalone/) - 6 workflows
+Independent AI agents for specific tasks and domains.
+- **Key Services**: Google Gemini, Lovable.dev, Airtop, ElevenLabs, Gmail API
+- **Cost Considerations**: Voice processing (pay-per-character), website creation (pay-per-project)
+
+### 🏢 [Business Solutions](./business-solutions/) - 1 workflow
+Industry-specific automation solutions for particular business use cases.
+- **Key Services**: Google Gemini, Google Calendar API, Google Drive
+- **Cost Considerations**: AI processing (pay-per-token), mostly free Google services
+
+### 🔧 [Utility Tools](./utility-tools/) - 6 workflows
+Standalone utility workflows that can be used independently or integrated into larger systems.
+- **Key Services**: Firecrawl, Apify, Google Gemini, ElevenLabs, Twitter API
+- **Cost Considerations**: Web scraping (pay-per-request), social media monitoring (pay-per-monitor)
+
+--- 
 
 ## n8n AI Agents
 
